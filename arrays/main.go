@@ -78,6 +78,10 @@ func main() {
 		}
 		fmt.Println(flavors)
 		fmt.Println(len(flavors))
+
+		for i, v := range flavors {
+			fmt.Printf("index %v - value %v\n", i, v)
+		}
 	}
 }
 
