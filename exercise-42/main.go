@@ -39,7 +39,7 @@ func main() {
 
 	for _, v := range m {
 		fmt.Println(v)
-		for _, v2 := range v.favIC {
+		for _, v2 := range v.flavors {
 			fmt.Println(v.first, v.last, v2)
 		}
 	}
